@@ -1,0 +1,107 @@
+body {
+	background: dimgrey;
+	color: aliceblue;
+	font-family: Impact, fantasy;
+	font-size: 16px;
+	line-height: 25px;
+}
+h1 {
+	color: lightblue;
+	font-size: 50px;
+}
+h2 {
+	color: lightcyan;
+	font-family: helevatica;
+	font-size: 35px;
+	font-weight: heavier;
+}
+a {
+	text-decoration: none;
+	color: aliceblue;
+}
+a:hover{
+	color: lightblue;
+
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+.card-white {
+	background-color: grey;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+	margin: 20px;
+	text-align: center;
+
+}
+
+
+.img-cirle {
+	border-radius: 50%;
+}
+
+.btn-darkgrey {
+	background-color: darkgrey;
+	color: aliceblue;
+	padding: 15px;
+	border-radius: 5px 5px;
+}
+
+.btn-darkgrey:hover {
+	background-color: slateblue;
+	color: aliceblue;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px ;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline a {
+	font-size: 30px;
+	color: aliceblue;
+}
+
+.list-inline a:hover {
+	font-size: 30px;
+	color: lightblue;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+@media (max-width: 960px) {
+	.container {
+		width: 700px;
+	}
+
+}
+
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+
+}
+
+@media (max-width: 540px) {
+	.container {
+		width: 300px;
+	}
+
+}
+
+
+
+
+
